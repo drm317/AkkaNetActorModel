@@ -1,10 +1,10 @@
 # Akka.NET Banking System - Actor Model Reference Implementation
 
-This project demonstrates a comprehensive banking system built using the Actor Model with Akka.NET, showcasing real-world application of actor-based programming patterns in financial services.
+This project demonstrates a comprehensive banking system built using the Actor Model with Akka.NET, demonstrating actor-based programming patterns in financial services.
 
 ## Banking System Overview
 
-The banking system implements a complete financial services platform with the following components:
+The banking system implements a financial services platform with the following components:
 
 ### Core Banking Actors
 
@@ -77,7 +77,7 @@ cd ActorModelReference
 dotnet run
 ```
 
-The application demonstrates five comprehensive scenarios:
+The application demonstrates five scenarios:
 
 ### 1. Basic Banking Operations
 - Account creation for different account types
