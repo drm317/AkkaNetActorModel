@@ -104,23 +104,6 @@ The application demonstrates five scenarios:
 - Transaction blocking on frozen accounts
 - Administrative operations and account recovery
 
-## Actor Model Benefits in Banking
-
-### 1. **State Isolation**
-Each account's state is completely isolated within its actor, eliminating race conditions and ensuring data consistency without complex locking mechanisms.
-
-### 2. **Fault Tolerance**
-The supervisor hierarchy ensures that individual actor failures don't cascade through the system. Failed actors are automatically restarted while maintaining system availability.
-
-### 3. **Scalability**
-Actors can be distributed across multiple machines, allowing the banking system to scale horizontally while maintaining location transparency.
-
-### 4. **Real-time Processing**
-Asynchronous message passing enables real-time transaction processing and fraud detection without blocking operations.
-
-### 5. **Security**
-Actor encapsulation provides natural security boundaries, and the fraud detection system can monitor and respond to threats in real-time.
-
 ## Message Flow Examples
 
 ### Money Transfer Flow
@@ -160,14 +143,6 @@ The system includes test scenarios:
 3. **Security**: Authentication failures, fraud detection
 4. **Recovery**: System restart and state preservation
 5. **Concurrency**: Multiple simultaneous operations
-
-This implementation demonstrates patterns applicable to:
-
-- **Financial Services**: Banking, payment processing, trading systems
-- **E-commerce**: Order processing, inventory management
-- **Gaming**: Player state management, real-time interactions
-- **IoT Systems**: Device coordination, sensor data processing
-- **Microservices**: Service coordination, event processing
 
 ## Dependencies
 
