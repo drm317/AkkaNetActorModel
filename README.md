@@ -15,7 +15,7 @@ The banking system implements a financial services platform with the following c
 - **AtmActor**: Simulates ATM operations with authentication and cash management
 - **BankingSupervisorActor**: Provides fault tolerance and system coordination
 
-## Key Features Demonstrated
+## Key Features
 
 ### 1. Secure Account Management
 - Thread-safe balance operations without locks
@@ -153,7 +153,7 @@ Severity levels (Low, Medium, High, Critical) determine the response:
 
 ## Testing Scenarios
 
-The system includes comprehensive test scenarios that demonstrate:
+The system includes test scenarios:
 
 1. **Normal Operations**: Standard banking transactions
 2. **Error Handling**: Insufficient funds, invalid accounts
