@@ -15,40 +15,6 @@ The banking system implements a financial services platform with the following c
 - **AtmActor**: Simulates ATM operations with authentication and cash management
 - **BankingSupervisorActor**: Provides fault tolerance and system coordination
 
-## Key Features
-
-### 1. Secure Account Management
-- Thread-safe balance operations without locks
-- Account creation with automatic PIN generation
-- Account freezing/unfreezing capabilities
-- Transaction history tracking
-
-### 2. Money Transfer System
-- Atomic transfer operations between accounts
-- Insufficient funds protection
-- Transaction status tracking (pending, completed, failed)
-- Real-time balance updates
-
-### 3. ATM Operations
-- PIN-based authentication
-- Cash withdrawal with daily limits
-- Deposit processing
-- Balance inquiries
-- ATM cash management and monitoring
-
-### 4. Fraud Detection System
-- **Large Transaction Monitoring**: Alerts for transactions over $10,000
-- **Frequency Analysis**: Detects unusual transaction patterns
-- **Time-based Detection**: Flags transactions during unusual hours
-- **Rapid Succession Detection**: Identifies transactions within seconds
-- **Automatic Account Freezing**: Freezes accounts for high-severity alerts
-
-### 5. Fault Tolerance & Supervision
-- Automatic actor restart on failures
-- Hierarchical supervision strategies
-- System-wide error recovery
-- State preservation during restarts
-
 ## Project Structure
 
 ```
